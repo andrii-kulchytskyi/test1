@@ -4,9 +4,9 @@ import './App.css';
 import ShopList from "./ShopList";
 
 function App() {
-  return (
-<ShopList/>
-  );
+    return (
+        <ShopList/>
+    );
 }
 
 export default App;

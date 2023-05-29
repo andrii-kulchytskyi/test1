@@ -5,7 +5,6 @@ import thunk, {ThunkAction} from 'redux-thunk';
 
 export const rootReducer = combineReducers({
     shop: shopReducer
-    // Add other reducers as needed
 });
 
 export const store: Store<RootState> = legacy_createStore(

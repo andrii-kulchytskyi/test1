@@ -10,7 +10,7 @@ const ShopList: React.FC = () => {
     const shops = useSelector((state: RootState) => state.shop.shops);
 
     useEffect(() => {
-        dispatch(fetchShops());
+        // dispatch(fetchShops());
     }, [dispatch]);
 
     return (
