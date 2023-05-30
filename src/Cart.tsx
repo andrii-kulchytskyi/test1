@@ -1,7 +1,8 @@
 import {useDispatch, useSelector} from "react-redux";
 import {RootState} from "./store";
 import {CartItem, OrderInfo} from "./types";
-import {useState} from "react";
+import React, {useState} from "react";
+import {changeItemCount, removeFromCart, submitOrder} from "./cartActions";
 
 
 const Cart: React.FC = () => {
